@@ -21,11 +21,14 @@
     }
 
     header img {
-      width: 160px;
-      height: 160px;
+      width: 180px;          /* تكبير الصورة شوية */
+      height: 180px;
+      border-radius: 50%;    /* دايرة */
+      object-fit: cover;     /* تحافظ على تناسق الصورة */
+      background: transparent;  /* إزالة أي خلفية بيضاء */
+      box-shadow: none;      /* إزالة أي ظل ممكن يسبب الحواف */
+      border: none;          /* إزالة أي إطار أبيض */
       margin-bottom: 10px;
-      border-radius: 50%;       /* يخلي الصورة دائرية */
-      object-fit: cover;        /* يحافظ على تناسق الصورة */
     }
 
     header h1 {
